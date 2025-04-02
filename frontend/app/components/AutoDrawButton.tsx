@@ -77,7 +77,7 @@ export function AutoDrawButton() {
         addToast({
           title: 'Error',
           description: error.message || 'Failed to generate 3D model',
-          icon: 'cross',
+          icon: 'cross-2',
         })
       }
     }
@@ -210,7 +210,7 @@ export function AutoDrawButton() {
       addToast({
         title: 'Auto 3D Disabled',
         description: 'Automatic 3D model generation turned off',
-        icon: 'cross',
+        icon: 'cross-2',
       })
     }
   }, [enabled, editor, addToast])
